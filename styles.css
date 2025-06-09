@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Times New Roman', sans-serif;
+  background: #afe6f5;
+  color: #000000;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #afe6f5;
+}
+
+.album-cover {
+  height: 100px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #00ffcc;
+}
+
+.intro {
+  padding: 2rem;
+  background: #afe6f5;
+}
+
+.tracklist {
+  padding: 2rem;
+}
+
+.tracks-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+article {
+  background: #1f1f1f;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+aside.artist-info {
+  padding: 2rem;
+  background: #111;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1a1a1a;
+}
