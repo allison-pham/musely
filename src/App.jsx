@@ -1,5 +1,4 @@
 import Header from "./components/Header";
-import MoodJar from "./components/MoodJar";
 
 export default function App() {
   return (
